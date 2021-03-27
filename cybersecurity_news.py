@@ -8,7 +8,8 @@ def main():
     print("[1]: ThreatPost")
     print("[2]: NakedSecurity")
 
-    website_list = ("https://feeds.feedburner.com/TheHackersNews", "https://threatpost.com/feed", "https://nakedsecurity.sophos.com/feed")
+    website_list = ("https://feeds.feedburner.com/TheHackersNews",
+                    "https://threatpost.com/feed", "https://nakedsecurity.sophos.com/feed")
 
     website_input = int(input("Enter website by number (0-2): "))
 
