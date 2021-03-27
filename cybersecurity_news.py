@@ -2,7 +2,6 @@ import feedparser
 import webbrowser
 
 
-
 def main():
     print("--Security News Website List--")
     print("[0]: TheHackerNews")
@@ -34,4 +33,6 @@ def main():
         webbrowser.open(article_link[user_click-1])
         article_link_click = True
 
-main()
+        
+if __name__ == '__main__':
+    main()
