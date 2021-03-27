@@ -1,6 +1,7 @@
 import requests
 import json
 
+
 def main():
 
     content = requests.get("https://cve.circl.lu/api/last")
@@ -10,4 +11,6 @@ def main():
         print("{} {}".format("Vuln Num:", item['id']))
         print("{} {}\n".format("Description:", item['summary']))
 
-main()
+        
+if __name__ == '__main__':
+    main()
